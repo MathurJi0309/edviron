@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App{
+  height: 99vh;
+}
+
+.leftSide{
+  height: 100%;
+  background: #E5E5E5;
+}
+
+.logodiv{
+
+  position: absolute;
+width: 134px;
+height: 48px;
+left: 51px;
+top: 60px;
+}
+.middle{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 24px 8px 16px;
+gap: 12px;
+
+width: 167px;
+height: 40px;
+
+background: #B4CD93;
+border-radius: 4px;
+top:212px;
+left:32px;
+}
