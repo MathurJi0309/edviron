@@ -11,6 +11,8 @@ const LeftSide = () => {
             <img src={edvironLogo} alt="Edviron Logo " />
           </div>
 
+          
+
           <div className="middle container">
             <img className="image" src={dott}/>
             <img className="image1" src={dott}/>
