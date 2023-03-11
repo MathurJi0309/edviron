@@ -4,7 +4,7 @@ import Main from './Main'
 
 function App() {
   return (
-    <div className="row App">
+    <div className="app">
       <div className='col-sm-2'>
         <LeftSide/>
       </div>
