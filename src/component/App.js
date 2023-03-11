@@ -5,13 +5,13 @@ import Main from './Main'
 function App() {
   return (
     <div className="row App">
-      <div className='col-md-2'>
+      <div className='col-sm-2'>
         <LeftSide/>
       </div>
-      <div className='col-md-6'>
+      <div className='col-sm-6'>
       <Main/>
       </div>
-      <div className='col-md-4'>
+      <div className='col-sm-4'>
       <RightSide/>
       </div>
     </div>
