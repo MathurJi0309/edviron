@@ -28,6 +28,7 @@ code {
   position: relative;
 width: 1512px;
 height: 982px;
+display: flex;
 }
 
 .left-side{
@@ -140,4 +141,464 @@ margin-left: 32px;
 
 
 
+
+.main{
+  width: 777px;
+  height: 982px;
+  margin: 0;
+}
+
+.main .content{
+  width: 741px;
+  height: 882px;
+  margin:  auto;
+}
+
+.main .content .search{
+  width: 741px;
+  height: 48px;
+
+  border: 1px solid #E6E6E6;
+  margin-top: 60px;
+  margin-left: 32px;
+}
+
+.text{
+  width: 160px;
+  height: 32px;
+  margin-top: 80px;
+  
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  
+  
+  color: #4C4C4C;
+  z-index: 200;
+}
+
+
+.main .content .search .searchbox{
+  width: 282.95px;
+  height: 24px;
+  left: 288.05px;
+  top: 72px;
+  gap: 11.88px;
+  
+}
+
+.main .content .search .searchbox img{
+  width: 24.08px;
+  height: 24px;
+  margin-left: 16.5px;
+  margin-top: 12px;
+}
+
+.main .content .search .searchbox span{
+
+  width: 247px;
+  height: 20px;
+  margin-left: 14.88px;
+  margin-top: 12px;
+  
+  font-family: 'Manrope',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-self: baseline;
+}
+
+
+.list{
+  width: 227px;
+height: 80px;
+display: flex;
+gap:32px;
+margin-top: 64px;
+}
+
+
+
+.list img{
+  width: 227px;
+height: 80px;
+
+background: #212121;
+border-radius: 4px;
+z-index: 200;
+}
+
+.main .content .middleheader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 312px;
+  
+  position: absolute;
+  width: 741px;
+  height: 56px;
+  left: 271px;
+  top: 404px;
+}
+
+.main .content .middleheader .AllUsers{
+  width: 181px;
+height: 56px;
+}
+
+.Usert{
+  width: 73px;
+  height: 32px;
+margin-top: 72px;
+  
+  font-family: 'Manrope',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  
+  
+  color: #4C4C4C;
+}
+
+
+.usertext{
+  width: 180px;
+  height: 16px;
+  margin-left: 1px;
+  margin-top: 8px;
+  
+  font-family: 'Manrope',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  
+  
+  color: #B3B3B3;
+}
+
+.midddleright{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+margin-left: -60px;
+
+width: 315px;
+height: 32px;
+
+
+}
+.midddlerightleft{
+  width: 240px;
+height: 32px;
+}
+
+.middlerightright{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 6px;
+  
+  width: 59px;
+  height: 32px;
+  
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+}
+
+.middlerightleftmain{
+  width: 144px;
+  height: 16px;
+  margin-left: 16px;
+  top: 8px;
+}
+
+.middlerightleftmain span{
+  width: 112px;
+  height: 16px;
+  margin-left: 10px;
+  top: 8px;
+  
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+}
+
+.middlerightleftmain img{
+  width: 16px;
+  height: 16px;
+  left: 16px;
+  top: 8px;
+  
+}
+
+.middlerightleftsearch{
+  width: 240px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  
+  background: #FAFAFA;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+}
+
+.table{
+  width: 741px;
+height: 40px;
+left: 271px;
+margin-top: 130px;
+
+background: #F7F7F7;
+border-radius: 4px 4px 0px 0px;
+}
+
+.table .user{
+  width: 27px;
+height: 16px;
+margin-left: 24px;
+margin-top: 12px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+
+
+color: #4C4C4C;
+}
+
+.table .Status{
+  width: 39px;
+height: 16px;
+margin-left: 114px;
+margin-top: 12px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+
+
+color: #4C4C4C;
+}
+
+.table .rating{
+  width: 45px;
+height: 16px;
+margin-left: 68px;
+margin-top: 12px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+
+
+color: #4C4C4C;
+}
+
+.table .quantity{
+  width: 51px;
+height: 16px;
+margin-left: 189px;
+margin-top: 12px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+color: #4C4C4C;
+}
+
+.table .amount{
+  width: 46px;
+height: 16px;
+margin-left: 80px;
+margin-top: 12px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+color: #4C4C4C;
+}
+
+
+.maintable{
+  width: 741px;
+  height: auto;
+  margin-top: 17px;
+  margin-left: 31px;
+}
+
+.tablecontaint{
+  display: flex;
+  flex-direction: row;
+  width: 667px;
+height: 32px;
+margin-left: 24px;
+margin-top: 17px;
+}
+
+.tablecontaint .profile img{
+  width: 32px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+}
+
+.tablecontaint .profile span{
+  width: 34px;
+  height: 16px;
+  margin-left: 8px;
+  
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  
+  
+  color: #808080;
+
+}
+
+.tablecontaint .verified{
+  width: 43px;
+height: 16px;
+margin-left: 71px;
+margin-top: 8px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+
+color: #427A5B;
+}
+
+.tablecontaint .rate{
+  width: 40px;
+  height: 4px;
+  margin-left: 60px;
+  margin-top: 16px;
+  
+  background: #4C4C4C;
+  border-radius: 4px;
+}
+
+.tablecontaint .forty{
+  width: 26px;
+height: 24px;
+margin-left: 66px;
+top: 4px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+/* identical to box height, or 200% */
+
+
+color: #4C4C4C;
+}
+
+.tablecontaint .arrow{
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px;
+gap: 2px;
+
+position: absolute;
+width: 40px;
+height: 24px;
+margin-left: 385px;
+margin-top: 2px;
+
+background: #DEEDE5;
+border-radius: 4px;
+}
+
+.tablecontaint .arrow img{
+  width: 12px;
+height: 12px;
+}
+
+.tablecontaint .arrow span{
+  width: 18px;
+height: 16px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+color: #427A5B;
+}
+
+.tablecontaint .mainquantity{
+  width: 22px;
+height: 16px;
+margin-left: 100px;
+margin-top: 8px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+
+color: #808080;
+}
+
+.tablecontaint .mainprice{
+  width: 54px;
+  height: 16px;
+  margin-left: 109px;
+  margin-top: 10px;
+  
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  
+  
+  color: #808080;
+  
+}
 
